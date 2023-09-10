@@ -43,6 +43,9 @@ module.exports = {
       },
       zIndex: {
         '100': '100',
+      },
+      fontFamily: {
+        default: 'ITC Avant Garde Gothic Std'
       }
     },
   },

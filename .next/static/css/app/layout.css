@@ -883,6 +883,9 @@ video {
 .text-justify {
   text-align: justify;
 }
+.font-default {
+  font-family: ITC Avant Garde Gothic Std;
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -974,6 +977,11 @@ video {
   transition-duration: 300ms;
 }
 
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url(/_next/static/media/FONTSFREE-NET-ITCAVANTGARDESTDMD.4d10970a.TTF);
+}
+
 .border-b-transition::after {
   display: none;
   content: "";
@@ -991,6 +999,10 @@ video {
 
 html {
   background-image: url(/_next/static/media/background.3a86a7df.png);
+}
+
+body {
+  font-family: 'ITC Avant Garde Gothic Std';
 }
 
 .hover\:opacity-70:hover {
@@ -1058,4 +1070,3 @@ html {
     padding-right: 0px;
   }
 }
-

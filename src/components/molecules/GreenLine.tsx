@@ -1,4 +1,4 @@
-import { GreenLineSpan } from '../atoms/GreenLineSpan'
+import { GreenLineSpan } from "../atoms/GreenLineSpan";
 
 export const GreenLine = () => {
   return (
@@ -9,5 +9,5 @@ export const GreenLine = () => {
         <GreenLineSpan text="Criação de Sites" />
       </div>
     </div>
-  )
-}
+  );
+};

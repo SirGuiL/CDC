@@ -1,6 +1,6 @@
-import Image from 'next/image'
-import YellowCamel from '../../assets/yellow-camel.svg'
-import { Title } from '../atoms/Title'
+import Image from "next/image";
+import YellowCamel from "../../assets/yellow-camel.svg";
+import { Title } from "../atoms/Title";
 
 export const AboutUs = () => {
   return (
@@ -8,7 +8,7 @@ export const AboutUs = () => {
       <div className="lg:w-256 w-full py-9 px-10 lg:px-0">
         <Title text="SOBRE NÓS" />
         <div className="mt-6 lg:flex hidden gap-36">
-          <p className="text-custom-gray-500 flex max-w-xl text-justify text-2xl">
+          <p className="text-custom-gray-500 flex max-w-xl text-justify text-2xl font-default">
             Nosso diferencial é o encher linguiça pra ganhar espaço e tals
             encher linguiça pra ganhar espaço e tals encher linguiça pra ganhar
             espaço e tals encher linguiça pra ganhar espaço e tals encher
@@ -24,5 +24,5 @@ export const AboutUs = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

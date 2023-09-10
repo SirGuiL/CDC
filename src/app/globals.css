@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "ITC Avant Garde Gothic Std";
+  src: url(../../public/font/FONTSFREE-NET-ITCAVANTGARDESTDMD.TTF);
+}
+
 .border-b-transition::after {
   display: none;
   content: "";
@@ -19,4 +24,8 @@
 
 html {
   background-image: url("../assets/background.png");
+}
+
+body {
+  font-family: 'ITC Avant Garde Gothic Std';
 }
