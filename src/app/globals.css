@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-b-transition::after {
+  display: none;
+  content: "";
+
+  display: flex;
+  border-bottom: 3px solid #fff;
+  width: 0;
+  transition: 0.2s;
+}
+
+.border-b-transition::after:hover {
+  width: 100%;
+  border-bottom: 3px solid #fff;
+}
+
+html {
+  background-image: url("../assets/background.png");
+}
