@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import HeroImage from '../../assets/hero.png'
-import Logo from '../../assets/logo.svg'
-import CamelOutlined from '../../assets/camel-outline.svg'
-import { GreenCircle } from '../atoms/GreenCircle'
+import Image from "next/image";
+import HeroImage from "../../assets/hero.png";
+import Logo from "../../assets/logo.svg";
+import CamelOutlined from "../../assets/camel-outline.svg";
+import { GreenCircle } from "../atoms/GreenCircle";
 
 export const Hero = () => {
   return (
@@ -29,5 +29,5 @@ export const Hero = () => {
         <GreenCircle />
       </div>
     </section>
-  )
-}
+  );
+};

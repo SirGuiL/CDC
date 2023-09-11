@@ -1,44 +1,44 @@
-import { Title } from '../atoms/Title'
-import { ServiceBox } from '../molecules/ServiceBox'
-import { ServiceGreenLine } from '../molecules/ServiceGreenLine'
+import { Title } from "../atoms/Title";
+import { ServiceBox } from "../molecules/ServiceBox";
+import { ServiceGreenLine } from "../molecules/ServiceGreenLine";
 
 export const Services = () => {
   const servicesPlans = {
     photoBasic: [
       {
-        text: '20 fotos',
+        text: "20 fotos",
         status: true,
       },
       {
-        text: '1 vídeo',
+        text: "1 vídeo",
         status: true,
       },
       {
-        text: '10 fotos editadas',
+        text: "10 fotos editadas",
         status: true,
       },
     ],
     photoEssential: [
       {
-        text: '30 fotos',
+        text: "30 fotos",
         status: true,
       },
       {
-        text: '2 vídeo',
+        text: "2 vídeo",
         status: true,
       },
       {
-        text: '15 fotos editadas',
+        text: "15 fotos editadas",
         status: true,
       },
     ],
     designBasic: [
       {
-        text: 'Logotipo',
+        text: "Logotipo",
         status: true,
       },
       {
-        text: 'Sublogo',
+        text: "Sublogo",
         status: false,
       },
       {
@@ -46,29 +46,29 @@ export const Services = () => {
         status: true,
       },
       {
-        text: 'Paleta de Cores',
+        text: "Paleta de Cores",
         status: true,
       },
       {
-        text: 'Tipografia',
+        text: "Tipografia",
         status: true,
       },
       {
-        text: 'Arte de Cartão de Visita',
+        text: "Arte de Cartão de Visita",
         status: false,
       },
       {
-        text: 'Destaques do Instagram',
+        text: "Destaques do Instagram",
         status: false,
       },
     ],
     designEssential: [
       {
-        text: 'Logotipo',
+        text: "Logotipo",
         status: true,
       },
       {
-        text: 'Sublogo',
+        text: "Sublogo",
         status: true,
       },
       {
@@ -76,25 +76,25 @@ export const Services = () => {
         status: true,
       },
       {
-        text: 'Paleta de Cores',
+        text: "Paleta de Cores",
         status: true,
       },
       {
-        text: 'Tipografia',
+        text: "Tipografia",
         status: true,
       },
       {
-        text: 'Arte de Cartão de Visita',
+        text: "Arte de Cartão de Visita",
         status: true,
       },
       {
-        text: 'Destaques do Instagram',
+        text: "Destaques do Instagram",
         status: true,
       },
     ],
-  }
+  };
   return (
-    <section className="flex flex-col items-center justify-center  mt-8">
+    <section className="flex flex-col items-center justify-center bg-hero-pattern mt-8">
       <ServiceGreenLine text="Fotografia" image="camera" />
       <section className="flex flex-col justify-center gap-16 sm:gap-0 sm:flex-row  sm:justify-around lg:w-256 w-full mt-10 mb-40">
         <ServiceBox
@@ -113,13 +113,13 @@ export const Services = () => {
       <ServiceGreenLine text="Identidade Visual" image="designer" />
       <section className="flex flex-col sm:gap-0 sm:flex-row  gap-16  sm:justify-around lg:w-256 w-full mt-10 mb-40">
         <ServiceBox
-        fixedHeader
+          fixedHeader
           title="Pacote Básico"
           price="300,00"
           lines={servicesPlans.designBasic}
         />
         <ServiceBox
-        fixedHeader
+          fixedHeader
           title="Pacote Essencial"
           price="450,00"
           lines={servicesPlans.designEssential}
@@ -135,7 +135,6 @@ export const Services = () => {
           lines={servicesPlans.designBasic}
         />
       </section>
-      <div className="h-[1px] w-full bg-main-red my-10"></div>
     </section>
-  )
-}
+  );
+};

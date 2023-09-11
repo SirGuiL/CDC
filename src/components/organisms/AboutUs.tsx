@@ -4,7 +4,7 @@ import { Title } from "../atoms/Title";
 
 export const AboutUs = () => {
   return (
-    <section className="flex flex-col items-center justify-center my-32">
+    <section className="flex flex-col items-center justify-center my-32 bg-hero-pattern">
       <div className="lg:w-256 w-full py-9 px-10 lg:px-0">
         <Title text="SOBRE NÓS" />
         <div className="mt-6 lg:flex hidden gap-36">
