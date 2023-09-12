@@ -55,6 +55,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('../assets/background.png')",
       },
+      fontSize: {
+        default: "52px",
+        "default-2": "64px",
+      },
     },
   },
   plugins: [],
